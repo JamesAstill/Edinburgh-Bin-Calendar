@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "next bin",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "streetname",
+          "slots": [
+            {
+              "name": "street",
+              "type": "AMAZON.StreetName"
+            }
+          ],
+          "samples": [
+            "ask next bin what bin is due for {street}",
+            "ask next bin for {street}",
+            "{street}",
+            "i live at {street}",
+            "it\u0027s {street}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "28"
+}
